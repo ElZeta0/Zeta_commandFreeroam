@@ -10,7 +10,9 @@ if true is set in the configuration the /r command will revive the player howeve
 **How Install**
 
 1 extract the folder you will install
+
 2 add the folder into your ```resource``` folder
+
 3 add ```ensure Zeta_commandFreeroam``` to the server.cfg
 
 ```ensure Zeta_commandFreeroam```
