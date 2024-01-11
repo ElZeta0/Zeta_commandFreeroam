@@ -15,6 +15,4 @@ if true is set in the configuration the /r command will revive the player howeve
 
 3 add ```ensure Zeta_commandFreeroam``` to the server.cfg
 
-```ensure Zeta_commandFreeroam```
-
 If you have problems with the script/installation please join my [Discord Server](https://discord.gg/VNR2T7pvwT)
