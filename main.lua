@@ -35,7 +35,7 @@ CreateThread(function() --- premi [E] per ressarti
                 aspetta = 0
                 SetEntityVisible(PlayerPedId(), false, 0)
                 SetPlayerInvincible(giocatore, true)
-
+            if Config.comandoRianima == false then 
                 SetTextFont(4)
                 SetTextScale(0.5, 0.5)
                 SetTextColour(200, 50, 50, 255)
@@ -45,7 +45,6 @@ CreateThread(function() --- premi [E] per ressarti
                 EndTextCommandDisplayText(0.43, 0.77)
 
                 -- print('controllo sei il giocatore e morto') -- debug
-            if Config.comandoRianima == false then 
                 if IsControlJustReleased(0, 38) then
                     aspetta = 0
                     -- print('controllo sei il giocatore ha cliccato E') -- debug
